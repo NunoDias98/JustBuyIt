@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/promocoes"
+        android:icon="@drawable/ic_promocoes"
+        android:title="Promoções"/>
+    <item
+        android:id="@+id/produtos"
+        android:icon="@drawable/ic_produtos"
+        android:title="Produtos"/>
+
+    <item
+        android:id="@+id/carrinho"
+        android:icon="@drawable/ic_carrinho"
+        android:title="Carrinho"/>
+    <item
+        android:id="@+id/perfil"
+        android:icon="@drawable/ic_profile"
+        android:title="Perfil"/>
+
+</menu>

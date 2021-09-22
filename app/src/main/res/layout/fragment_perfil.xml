@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".fragments.PerfilFragment">
+
+        <!-- TODO: Update blank fragment layout -->
+        <TextView
+            android:id="@+id/tvProfile"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_centerHorizontal="true"
+            android:text="Perfil"
+            android:textAlignment="center"
+            android:textSize="40dp"
+            />
+        <TextView
+            android:id="@+id/tvEmail"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="75dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/tvProfile"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:drawableStart="@drawable/ic_email"
+            android:inputType="text"
+            android:maxLines="1"
+            />
+
+        <EditText
+            android:id="@+id/etNome"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvEmail"
+            android:layout_marginTop="18dp"
+            android:layout_centerHorizontal="true"
+            android:drawableStart="@drawable/ic_profile_black"
+            android:textAlignment="center"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/etPasswordNova"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/etNome"
+            android:layout_centerHorizontal="true"
+            android:hint="Password Nova"
+            android:inputType="textPassword"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:visibility="gone"
+            android:drawableStart="@drawable/ic_password"
+            />
+        <EditText
+            android:id="@+id/etCPasswordNova"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/etPasswordNova"
+            android:layout_centerHorizontal="true"
+            android:hint="Confirmar Password"
+            android:inputType="textPassword"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:visibility="gone"
+            android:drawableStart="@drawable/ic_password"
+            />
+
+
+        <Button
+            android:id="@+id/btEditar"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Editar"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/etCPasswordNova"
+            android:textSize="18sp"
+            android:layout_marginTop="30sp"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/buttonshape"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            />
+        <Button
+            android:id="@+id/btSubmeter"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Submeter"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/etCPasswordNova"
+            android:textSize="18sp"
+            android:visibility="invisible"
+            android:layout_marginTop="30sp"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/buttonshape"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            />
+
+
+        <Button
+            android:id="@+id/btLogout"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Logout"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/btSubmeter"
+            android:textSize="18sp"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/buttonshape"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:layout_marginTop="5sp"
+            android:layout_marginBottom="10dp"
+            />
+
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "2812442879",
+    "firebase_url": "https://projetocme-3cc08-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "projetocme-3cc08",
+    "storage_bucket": "projetocme-3cc08.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:2812442879:android:29d8f1efb5087181d874ca",
+        "android_client_info": {
+          "package_name": "com.example.cme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "2812442879-d1om9gqdqvkokqm5hh0pu41mobrb1s21.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAlJCPHfn0_7X-h2-_JxzK12FHSIe3gPtM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "2812442879-d1om9gqdqvkokqm5hh0pu41mobrb1s21.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
